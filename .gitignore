@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Modele i checkpointy
+*.pt
+*.bin
+*.safetensors
+*.gguf
+checkpoints/
+models/
+# Duże dane
+data/raw/
+# Logi eksperymentów
+wandb/
+runs/
+# Sekrety
+.env
